@@ -1,0 +1,724 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+body header {
+  padding: 19px 0;
+}
+body header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+body header .nav .logo span {
+  color: #173a56;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 93.333% */
+}
+body header .nav-items {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+body header .nav-link {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+body header .nav .sign {
+  padding: 10px 24px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 4px;
+}
+body header .nav .sign.in {
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+}
+body header .nav .sign.up {
+  color: #fff;
+  background: #02897a;
+}
+body main .container .main1 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1091px;
+  height: 555.724px;
+  margin-top: 25px;
+}
+body main .container .main1 img {
+  width: 600px;
+  height: 555.724px;
+  flex-shrink: 0;
+}
+body main .container .texts h1 {
+  width: 518px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 150% */
+}
+body main .container p {
+  width: 458px;
+  height: 95px;
+  flex-shrink: 0;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  margin-bottom: 45px;
+  margin-top: 18px;
+}
+body main .container .btns {
+  display: flex;
+  gap: 30.5px;
+}
+body main .container .btns .vidwatch {
+  display: flex;
+  align-items: center;
+  gap: 8.5px;
+}
+body main .container .btns .vidwatch img {
+  width: 20px;
+  height: 17px;
+  transform: rotate(90deg);
+  fill: #02897a;
+}
+body main .container .btns .vidwatch a {
+  color: #02897a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+body main .container button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 175px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #02897a;
+}
+body main .container .title1 h1 {
+  color: #22343d;
+  width: 539px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 114.11px auto;
+  text-align: center;
+}
+body main .container section {
+  background-image: linear-gradient(360deg, #ededed 0.35%, rgba(255, 255, 255, 0) 99.63%);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  height: 400px;
+}
+body main .container section .cards {
+  display: flex;
+  gap: 46px;
+  justify-content: center;
+}
+body main .container section .cards .card1 button {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 19px;
+  background: #02897a;
+}
+body main .container section .cards .card1 button img {
+  color: #fff;
+  font-family: FontAwesome;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body main .container section .cards .card1 h1 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+body main .container section .cards .card1 p {
+  width: 240px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container section .cards .card2 button {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 19px;
+  background: #4d8dff;
+}
+body main .container section .cards .card2 button img {
+  color: #fff;
+  font-family: FontAwesome;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body main .container section .cards .card2 h1 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+body main .container section .cards .card2 p {
+  width: 240px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container section .cards .card3 button {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 19px;
+  background: #740a76;
+}
+body main .container section .cards .card3 button img {
+  color: #fff;
+  font-family: FontAwesome;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body main .container section .cards .card3 h1 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+body main .container section .cards .card3 p {
+  width: 240px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container section .cards .card4 button {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 19px;
+  background: #f03e3d;
+}
+body main .container section .cards .card4 button img {
+  color: #fff;
+  font-family: FontAwesome;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body main .container section .cards .card4 h1 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+body main .container section .cards .card4 p {
+  width: 240px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container section .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .container section .btn button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 175px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #02897a;
+}
+body main .container .mainer .section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 169px;
+  margin-bottom: 150px;
+}
+body main .container .mainer .section1 img {
+  width: 543px;
+  height: 500px;
+  flex-shrink: 0;
+}
+body main .container .mainer .section1 h4 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+body main .container .mainer .section1 h1 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body main .container .mainer .section1 p {
+  width: 486px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section1 h3 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section1 h4 {
+  width: 486px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section1 h5 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section1 h6 {
+  width: 486px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+body main .container .mainer .section2 h4 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+body main .container .mainer .section2 h1 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body main .container .mainer .section2 .paragraph p {
+  width: 486px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section2 .search img {
+  width: 543px;
+  height: 500px;
+  flex-shrink: 0;
+}
+body main .container .mainer .section2 .yellow {
+  display: flex;
+  gap: 30px;
+}
+body main .container .mainer .section2 .yellow img {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  margin-top: 25px;
+}
+body main .container .mainer .section2 .yellow p {
+  width: 365px;
+  flex-shrink: 0;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section2 .red {
+  display: flex;
+  gap: 30px;
+  margin-top: -60px;
+  margin-bottom: -60px;
+}
+body main .container .mainer .section2 .red img {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  margin-top: 25px;
+}
+body main .container .mainer .section2 .red p {
+  width: 365px;
+  flex-shrink: 0;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section2 .blue {
+  display: flex;
+  gap: 30px;
+}
+body main .container .mainer .section2 .blue img {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  margin-top: 25px;
+}
+body main .container .mainer .section2 .blue p {
+  width: 385px;
+  flex-shrink: 0;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .container .mainer .section3 img {
+  width: 543px;
+  height: 500px;
+  flex-shrink: 0;
+}
+body main .container .mainer .section3 h4 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+body main .container .mainer .section3 h1 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body main .container .mainer .section3 p {
+  width: 486px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section3 h3 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section3 h4 {
+  width: 486px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section3 h5 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .mainer .section3 h6 {
+  width: 486px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .container .commentary {
+  background-image: linear-gradient(180deg, #ededed 0.35%, rgba(255, 255, 255, 0) 99.63%);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  height: 400px;
+  margin-top: 200px;
+  padding-top: 60px;
+}
+body main .container .commentary .head1 h1 {
+  color: #22343d;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body main .container .commentary .head1 p {
+  width: 542px;
+  color: #22343d;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  margin-left: 320px;
+}
+body main .container .commentary .owners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 192px;
+}
+body main .container .commentary .owners .right .owner3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+body main .container .commentary .owners .right .owner3 img {
+  width: 98px;
+  height: 98px;
+  flex-shrink: 0;
+  border-radius: 98px;
+  border: 3px solid #ff0909;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+body main .container .commentary .owners .right .owner3 p {
+  color: #2f281e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 274px;
+  height: 53px;
+  border-radius: 26.5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px rgba(23, 58, 86, 0.1);
+}
+body main .container .commentary .owners .right .owner4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+body main .container .commentary .owners .right .owner4 img {
+  width: 98px;
+  height: 98px;
+  flex-shrink: 0;
+  border-radius: 98px;
+  border: 3px solid #ff0909;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+body main .container .commentary .owners .right .owner4 p {
+  color: #2f281e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 274px;
+  height: 53px;
+  border-radius: 26.5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px rgba(23, 58, 86, 0.1);
+}
+body main .container .commentary .owners .left .owner1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+body main .container .commentary .owners .left .owner1 img {
+  width: 98px;
+  height: 98px;
+  flex-shrink: 0;
+  border-radius: 98px;
+  border: 3px solid #ff0909;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+body main .container .commentary .owners .left .owner1 p {
+  color: #2f281e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 274px;
+  height: 53px;
+  border-radius: 26.5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px rgba(23, 58, 86, 0.1);
+}
+body main .container .commentary .owners .left .owner2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+body main .container .commentary .owners .left .owner2 img {
+  width: 98px;
+  height: 98px;
+  flex-shrink: 0;
+  border-radius: 98px;
+  border: 3px solid #ff0909;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+body main .container .commentary .owners .left .owner2 p {
+  color: #2f281e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 274px;
+  height: 53px;
+  border-radius: 26.5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px rgba(23, 58, 86, 0.1);
+}
+body main .container .commentary button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 216px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #02897a;
+  margin-left: 500px;
+  margin-top: 50px;
+}/*# sourceMappingURL=style.css.map */
